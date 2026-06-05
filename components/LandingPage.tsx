@@ -25,6 +25,30 @@ const defaultProjects: CardStackItem[] = [
     href: "/project/2",
     tag: "Finance App",
   },
+  {
+    id: "3",
+    title: "Task Manager Pro",
+    description: "Aplikasi manajemen tugas dengan fitur drag-drop, kolaborasi tim real-time, dan integrasi kalender.",
+    imageSrc: "/placeholder.svg",
+    href: "/project/3",
+    tag: "Productivity",
+  },
+  {
+    id: "4",
+    title: "Health Tracker",
+    description: "Aplikasi pelacak kesehatan dengan fitur log aktivitas, nutrisi, dan statistik perkembangan bulanan.",
+    imageSrc: "/placeholder.svg",
+    href: "/project/4",
+    tag: "Healthcare",
+  },
+  {
+    id: "5",
+    title: "Social Media Dashboard",
+    description: "Dashboard untuk mengelola multiple akun sosial media dengan analitik, scheduling posts, dan laporan engagement.",
+    imageSrc: "/placeholder.svg",
+    href: "/project/5",
+    tag: "Marketing",
+  },
 ];
 
 interface Project {
